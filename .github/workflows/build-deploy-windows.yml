@@ -227,8 +227,8 @@ jobs:
           java-version: 11
           distribution: 'temurin'
           server-id:   ${{ github.event.inputs.serverId }}
-          server-username: MAVEN_USERNAME
-          server-password: MAVEN_PASSWORD
+          server-username: ${[ secrets.SONATYPE_USER_1 }}
+          server-password: ${{ secrets.SONATYPE_USER1_PASS }}
           gpg-private-key: ${{ secrets.SONATYPE_GPG_KEY }}
           gpg-passphrase: MAVEN_GPG_PASSPHRASE
         
