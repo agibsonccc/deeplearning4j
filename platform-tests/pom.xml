@@ -26,14 +26,14 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.eclipse.deeplearning4j</groupId>
+    <groupId>org.deeplearning4j</groupId>
     <artifactId>platform-tests</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <name>platform-tests</name>
 
     <parent>
-        <groupId>org.eclipse.deeplearning4j</groupId>
+        <groupId>org.deeplearning4j</groupId>
         <artifactId>deeplearning4j</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
@@ -256,13 +256,13 @@
 
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-parallel-wrapper</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>nd4j-arrow</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -272,31 +272,31 @@
             <version>5.3.15</version>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>python4j-numpy</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>resources</artifactId>
             <version>${dl4j.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-datavec-iterators</artifactId>
             <version>${dl4j.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-datasets</artifactId>
             <version>${dl4j.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>datavec-api</artifactId>
             <version>${dl4j.version}</version>
         </dependency>
@@ -308,72 +308,72 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-common-tests</artifactId>
             <version>${dl4j.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>${backend.artifactId}</artifactId>
             <version>${dl4j.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>${backend.artifactId}</artifactId>
             <version>${dl4j.version}</version>
             <classifier>${platform.classifier}</classifier>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>nd4j-tensorflow-lite</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>nd4j-tvm</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-modelimport</artifactId>
             <version>${dl4j.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>datavec-arrow</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>datavec-jdbc</artifactId>
             <version>${project.version}</version>
         </dependency>
 
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>samediff-import-onnx</artifactId>
             <version>${dl4j.version}</version>
         </dependency>
 
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>samediff-import-tensorflow</artifactId>
             <version>${dl4j.version}</version>
         </dependency>
 
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-ui-components</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-ui-model</artifactId>
             <version>${project.version}</version>
             <exclusions>
@@ -385,13 +385,13 @@
         </dependency>
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-vertx</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-ui</artifactId>
             <version>${project.version}</version>
             <exclusions>
@@ -403,7 +403,7 @@
         </dependency>
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>omnihub</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -417,14 +417,14 @@
 
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>datavec-local</artifactId>
             <version>${project.version}</version>
         </dependency>
 
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>nd4j-cuda-12.3</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -435,19 +435,19 @@
         </dependency>
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-graph</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-nlp</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>dl4j-test-resources</artifactId>
             <version>${dl4j.version}</version>
         </dependency>
@@ -493,12 +493,12 @@
 
 
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-zoo</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-parallel-wrapper</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -509,7 +509,7 @@
             <version>${logback.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>deeplearning4j-vertx</artifactId>
             <version>${project.version}</version>
 
@@ -521,7 +521,7 @@
 
         </dependency>
         <dependency>
-            <groupId>org.eclipse.deeplearning4j</groupId>
+            <groupId>org.deeplearning4j</groupId>
             <artifactId>datavec-excel</artifactId>
             <version>${project.version}</version>
 
@@ -601,12 +601,12 @@
             </properties>
             <dependencies>
                 <dependency>
-                    <groupId>org.eclipse.deeplearning4j</groupId>
+                    <groupId>org.deeplearning4j</groupId>
                     <artifactId>${backend.artifactId}</artifactId>
                     <version>${dl4j.version}</version>
                 </dependency>
                 <dependency>
-                    <groupId>org.eclipse.deeplearning4j</groupId>
+                    <groupId>org.deeplearning4j</groupId>
                     <artifactId>nd4j-cuda-12.3</artifactId>
                     <version>${dl4j.version}</version>
                     <classifier>${platform.classifier}</classifier>
