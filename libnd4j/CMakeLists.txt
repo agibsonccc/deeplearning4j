@@ -1501,6 +1501,7 @@ else() # Start of CPU Build Section
     # Create the final shared library using the object library
     add_library(${SD_LIBRARY_NAME} SHARED $<TARGET_OBJECTS:${OBJECT_LIB_NAME}>)
     set_target_properties(${SD_LIBRARY_NAME} PROPERTIES OUTPUT_NAME ${SD_LIBRARY_NAME}) # Ensure output file is nd4jcpu.dll/so
+    set_target_properties(${SD_LIBRARY_NAME} PROPERTIES LINKER_LANGUAGE CXX)
     set_property(TARGET ${SD_LIBRARY_NAME} PROPERTY MSVC_RUNTIME_LIBRARY "${MSVC_RT_LIB}$<$<CONFIG:Debug>:Debug>")
 
     # Apply Android specific properties if needed
